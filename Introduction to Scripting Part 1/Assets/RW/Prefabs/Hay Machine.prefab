@@ -23,8 +23,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855226493}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4, z: 3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.4, z: -32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2709791935418197139}
@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608009902436022158}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: -35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -70,6 +70,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2709791935418197139}
+  - component: {fileID: -1850527539263127190}
   m_Layer: 0
   m_Name: Hay Machine
   m_TagString: Untagged
@@ -84,7 +85,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6020313712292669828}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.76604444, z: 0, w: 0.64278764}
   m_LocalPosition: {x: 0, y: 0, z: -34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -94,7 +95,21 @@ Transform:
   - {fileID: 8659054931532081558}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 100, z: 0}
+--- !u!114 &-1850527539263127190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020313712292669828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c4c84868bc46c4985ae3814ac6d2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 12
+  horizontalBoundary: 22
 --- !u!1001 &1980520476685283717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115,12 +130,12 @@ PrefabInstance:
     - target: {fileID: 7158221419412117523, guid: 7928344c9a39fbd4eb4c957288e1140b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.36
+      value: 7.36
       objectReference: {fileID: 0}
     - target: {fileID: 7158221419412117523, guid: 7928344c9a39fbd4eb4c957288e1140b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.84
+      value: -35.84
       objectReference: {fileID: 0}
     - target: {fileID: 7158221419412117523, guid: 7928344c9a39fbd4eb4c957288e1140b,
         type: 3}
@@ -190,12 +205,12 @@ PrefabInstance:
     - target: {fileID: 7158221419412117523, guid: 7928344c9a39fbd4eb4c957288e1140b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.36
+      value: 7.36
       objectReference: {fileID: 0}
     - target: {fileID: 7158221419412117523, guid: 7928344c9a39fbd4eb4c957288e1140b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.7300006
+      value: -35.73
       objectReference: {fileID: 0}
     - target: {fileID: 7158221419412117523, guid: 7928344c9a39fbd4eb4c957288e1140b,
         type: 3}
