@@ -13,6 +13,7 @@ public class SheepSpawner : MonoBehaviour
     void Start()
     {
         StartCoroutine(SpawnRoutine());
+
     }
 
     // Update is called once per frame
@@ -35,4 +36,12 @@ public class SheepSpawner : MonoBehaviour
     public void RemoveSheepFromList(GameObject sheep){
         sheepList.Remove(sheep);
     }
+    public void DestroyAllSheep(){
+        foreach (GameObject sheep in sheepList){
+            Destroy(sheep);
+    }
+
+    sheepList.Clear();
+}
+
 }

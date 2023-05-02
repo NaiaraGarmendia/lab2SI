@@ -78,6 +78,9 @@ MonoBehaviour:
   runSpeed: 10
   gotHayDestroyDelay: 1
   dropDestroyDelay: 2
+  heartOffset: 4
+  heartPerfab: {fileID: 8159111647398250087, guid: af1b6aa3065fd864d8d4739df241798a,
+    type: 3}
 --- !u!54 &7695913917769621933
 Rigidbody:
   m_ObjectHideFlags: 0
